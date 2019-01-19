@@ -1,14 +1,41 @@
 *{
     box-sizing: border-box;
 }
+h1{
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
 body{
-   background-color:lightgreen;
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:800px;
-    width:1300;
+    background-color: #ccc;
+    background-size: cover;
 }
-.header{
-    
-    font-size: 20px;
-}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  #loginsubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    margin: 8px 0;
+    border: none;
+   
+    width:50%;
+    opacity: 0.9;
+  }
+  h3{
+      font-weight: bolder;
+  }
+  #deposit1{
+      background-color:lightcoral;
+  }
