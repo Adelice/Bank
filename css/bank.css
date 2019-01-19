@@ -1,3 +1,11 @@
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.5) rgba(0,0,0,0.5), url('https://images.pexels.com/photos/259191/pexels-photo-259191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'))
+   background-color:lightgreen;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:800px;
+    width:1300;
+}
+.header{
+    
+    font-size: 50px;
 }
